@@ -19,7 +19,7 @@ public class AwsS3Service {
 
     private final String bucketName = "testdevbucket4";
 
-    @Value("")
+    @Value("fgdfg")
     private String awsS3AccessKey;
 
     @Value("")
