@@ -19,10 +19,10 @@ public class AwsS3Service {
 
     private final String bucketName = "testdevbucket4";
 
-    @Value("oQvgmFNW36VYC6VSZhMd/bP0+yWYk1rJAEGP6WqE")
+    @Value("")
     private String awsS3AccessKey;
 
-    @Value("AKIA47CR2WDH3FFDJL5O")
+    @Value("")
     private String awsS3SecretKey;
 
     public String saveImageToS3(MultipartFile photo) {
